@@ -1,0 +1,18 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+    list-style: none;
+    font-family: 'Signika', sans-serif;
+    font-size: large;
+    color: white;
+    display: flex;
+    gap: 10px;
+    
+   
+
+}
+body{
+    background-color: rgb(70, 25, 89);
+}
