@@ -14,7 +14,12 @@ ul{
     text-align: center;
     display: flex;
     gap: 30px;
+    transition: font-size 2s;
 
+}
+li:hover{
+    color: rgb(143, 67, 238);
+    font-size:1.05em;
 }
 body{
     background-color: rgb(17, 5, 26);
