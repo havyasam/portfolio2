@@ -25,17 +25,26 @@ body{
     padding-right: 10em;
 
 }
+.main{
+    padding-left: 400px;
+
+}
 
 .fa-linkedin{
-    color: purple;
-    font-size: 1.5em;
-    padding:20px;
+    color: rgb(143, 67, 238);
+    font-size: 1.8em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    
 }
-.fa-github{
-    color:purple;
-    font-size: 1.5em;
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
 
+.fa-github{
+    color:rgb(143, 67, 238);
+    font-size: 1.8em;
+    padding-bottom: 2em;
+    
+}
+.fa-instagram{
+    color:rgb(143, 67, 238);
+    font-size: 1.8em;
 }
