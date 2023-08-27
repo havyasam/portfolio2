@@ -1,6 +1,10 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family:  'Signika', sans-serif;
+}
+.body{
+    font-family:  'Signika', sans-serif;
 }
 nav{
     padding-top: 30px;
@@ -19,7 +23,6 @@ nav{
     font-size: 1rem;
     color: white;
     justify-content: center;
-    
     display: flex;
     gap: 30px;
     transition: font-size 2s;
@@ -85,6 +88,7 @@ i:hover{
     flex: 1;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 100px;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -98,6 +102,9 @@ i:hover{
 
 h1{
     font-size: 50px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+
 }
 @media  (max-width: 600px) {
     .navbar{
@@ -105,3 +112,14 @@ h1{
     gap:0px
     }
   }
+.main3{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 100px;
+}
+.about{
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
