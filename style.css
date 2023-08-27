@@ -113,9 +113,12 @@ h1{
   }
 .main3{
     display: flex;
+  
     color: white;
     justify-content: center;
+    text-align: center;
     gap: 100px;
+    padding-bottom: 60px;
 }
 .about{
     text-align: center;
@@ -125,6 +128,7 @@ h1{
 @media  (max-width: 600px) {
     .main3{
     flex-direction:column;
-    padding-left: 100px;
+    padding-left: 50px;
+
     }
   }
