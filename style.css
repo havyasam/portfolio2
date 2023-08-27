@@ -6,13 +6,9 @@ nav{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-@media screen and (max-width: 600px) {
-    .navbar  {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
+.second{
+    padding:28px ; 
+}
 ul{
     list-style: none;
     font-family: 'Signika', sans-serif;
@@ -23,6 +19,7 @@ ul{
     display: flex;
     gap: 30px;
     transition: font-size 2s;
+    flex-wrap: wrap;
 
 }
 li:hover{
@@ -68,6 +65,8 @@ i:hover{
 }
 .main2{
     color: white;
+    font-family: 'Signika', sans-serif;
+
     
    
 }
@@ -79,8 +78,6 @@ i:hover{
     flex-direction: row;
     flex-wrap: wrap;
 
-    
- 
 }
 @media (max-width:800px) {
     .main2 {
@@ -89,3 +86,6 @@ i:hover{
     }
 }
 
+h1{
+    font-size: 50px;
+}
