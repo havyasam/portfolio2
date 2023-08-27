@@ -2,10 +2,9 @@
     padding: 0%;
     margin: 0%;
     font-family:  'Signika', sans-serif;
+    color: white;
 }
-.body{
-    font-family:  'Signika', sans-serif;
-}
+
 nav{
     padding-top: 30px;
     padding-bottom: 100px;
@@ -123,3 +122,9 @@ h1{
     padding-bottom: 50px;
     
 }
+@media  (max-width: 600px) {
+    .main3{
+    flex-direction:column;
+    padding-left: 100px;
+    }
+  }
