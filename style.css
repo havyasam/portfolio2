@@ -108,7 +108,7 @@ h1{
     font-size: 50px;
     font-family: 'Signika', sans-serif;
     color: white;
-
+    text-decoration: underline;
 }
 /* ABOUT ME SECITON*/
 
@@ -138,3 +138,6 @@ h1{
     text-align: center;
     padding-bottom: 60px;
   }
+.images{
+    border-radius: 20%;
+}
