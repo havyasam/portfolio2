@@ -6,27 +6,37 @@ nav{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-.second{
-    padding:28px ; 
+.first{
+    padding:28px 0px 28px 150px ;
+    font-size: 1.2em;
 }
-ul{
+.second{
+    padding:28px 10px 28px 10px ; 
+}
+.navbar ul{
     list-style: none;
     font-family: 'Signika', sans-serif;
     font-size: 1rem;
     color: white;
     justify-content: center;
-    text-align: center;
+    
     display: flex;
     gap: 30px;
     transition: font-size 2s;
     flex-wrap: wrap;
 
 }
-li:hover{
+.second:hover{
     color: rgb(143, 67, 238);
     font-size:1.03em;
     cursor: pointer;
 }
+.first:hover{
+    color: rgb(143, 67, 238);
+    font-size:1.25em;
+    cursor: pointer;
+}
+
 body{
     background-color: rgb(17, 5, 26);
     
@@ -89,3 +99,9 @@ i:hover{
 h1{
     font-size: 50px;
 }
+@media  (max-width: 600px) {
+    .navbar{
+    flex-direction:column;
+    gap:0px
+    }
+  }
