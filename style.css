@@ -4,7 +4,7 @@
     font-family:  'Signika', sans-serif;
     color: white;
 }
-
+/*navbar section*/
 nav{
     padding-top: 30px;
     padding-bottom: 100px;
@@ -12,6 +12,7 @@ nav{
 .first{
     padding:28px 0px 28px 150px ;
     font-size: 1.2em;
+    padding-right: 18em;
 }
 .second{
     padding:28px 10px 28px 10px ; 
@@ -44,10 +45,7 @@ body{
     
     
 }
-.first{
-    padding-right: 18em;
 
-}
 /*.main{
     padding-left: 400px;
 
@@ -75,16 +73,13 @@ i:hover{
     color: rgb(160, 118, 249);
     cursor: pointer;
 }
-.main2{
-    color: white;
-    font-family: 'Signika', sans-serif;
-
-    
-   
-}
-.main2{
-    padding: 0 80px 0 80px;
-}
+@media  (max-width: 600px) {
+    .navbar{
+    flex-direction:column;
+    gap:0px
+    }
+  }
+/* HOME SECTION*/
 .main{
     display: flex;
     flex: 1;
@@ -95,6 +90,13 @@ i:hover{
     flex-wrap: wrap;
 
 }
+.main2{
+    color: white;
+    font-family: 'Signika', sans-serif;
+    padding: 0 80px 0 80px;
+   
+}
+
 @media (max-width:800px) {
     .main2 {
         order: 1;
@@ -108,12 +110,8 @@ h1{
     color: white;
 
 }
-@media  (max-width: 600px) {
-    .navbar{
-    flex-direction:column;
-    gap:0px
-    }
-  }
+/* ABOUT ME SECITON*/
+
 .main3{
     display: flex;
   
