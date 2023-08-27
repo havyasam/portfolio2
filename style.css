@@ -4,7 +4,15 @@
 }
 nav{
     padding-top: 30px;
+    padding-bottom: 100px;
 }
+@media screen and (max-width: 600px) {
+    .navbar  {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 ul{
     list-style: none;
     font-family: 'Signika', sans-serif;
@@ -19,7 +27,8 @@ ul{
 }
 li:hover{
     color: rgb(143, 67, 238);
-    font-size:1.05em;
+    font-size:1.03em;
+    cursor: pointer;
 }
 body{
     background-color: rgb(17, 5, 26);
@@ -30,15 +39,15 @@ body{
     padding-right: 10em;
 
 }
-.main{
+/*.main{
     padding-left: 400px;
 
-}
+}*/
 
 .fa-linkedin{
     color: rgb(143, 67, 238);
     font-size: 1.8em;
-    padding-top: 5em;
+   
     padding-bottom: 2em;
     
 }
@@ -53,3 +62,30 @@ body{
     color:rgb(143, 67, 238);
     font-size: 1.8em;
 }
+i:hover{
+    color: rgb(160, 118, 249);
+    cursor: pointer;
+}
+.main2{
+    color: white;
+    
+   
+}
+.main{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+ 
+}
+@media (max-width:800px) {
+    .main2 {
+        order: 1;
+      
+    }
+}
+
