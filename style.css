@@ -4,6 +4,11 @@
     font-family:  'Signika', sans-serif;
     color: white;
 }
+.hov:hover{
+    transform:rotate3d(1,1,1,-.2turn);
+    transition: 1s;
+}
+
 /*navbar section*/
 nav{
     padding-top: 30px;
@@ -139,5 +144,6 @@ h1{
     padding-bottom: 60px;
   }
 .images{
+    padding-left: 50px;
     border-radius: 20%;
 }
