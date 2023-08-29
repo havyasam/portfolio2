@@ -5,8 +5,8 @@
     color: white;
 }
 .hov:hover{
-    transform:rotate3d(1,1,1,-.2turn);
-    transition: 1s;
+    transform:rotate3d(1,1,1,.5turn);
+    transition: 2s;
 }
 
 /*navbar section*/

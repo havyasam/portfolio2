@@ -29,7 +29,9 @@
     </div>
     <div class="flex-item main2">
         <h1>Hi, I'm Havyas</h1>
-        <h3>I am a web developer</h3>
+        <h3>I am a  <span id="element"></span></h3>
+        <span id="element"></span>
+
         <p>A passionate Developer with keen interest in <br>solving real world complication</p>
 
     </div>
@@ -41,7 +43,7 @@
    <section >
        <h1 class="about">About Me</h1>
        <div class="main3">
-        <img class="images"src="IMG20230826110501-PhotoRoom.png-PhotoRoom.png" alt="" width="280px" height="280px">
+        <img class="images"src="https://static.fotor.com/app/features/img/aiface/advance/2.png" alt="" width="280px" height="280px">
         Hello there,👋 I'm Havyas a 21-year-old CSE undergrad and a <br>Computer Science Enthusiast currently on an exhilarating journey<br> through the realm of Software Development, Web Development <br>and Cross Platform App Development. I'm really passionate about my<br> work as a Full Stack  Developer and i love to solve complex  problems <br>of the real world. I share my learnings through projects, articles and<br>  community engagements. ✍🏻
 
        </div>
@@ -50,6 +52,13 @@
     <h1>Skills</h1>
     <p>My Techincal Skills</p>
    </div>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' learner', ' web developer'],
+          typeSpeed: 100,
+        });
+      </script>
        
    </section>
    <script src="https://kit.fontawesome.com/66e1a8d2b7.js" crossorigin="anonymous"></script>
