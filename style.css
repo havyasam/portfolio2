@@ -5,10 +5,10 @@
     color: white;
 }
 
-.hov:hover{
+/*.hov:hover{
     transform:rotate3d(1,1,1,.5turn);
     transition: 2s;
-}
+}*/
 
 /*navbar section*/
 nav{
@@ -144,7 +144,22 @@ h1{
     text-align: center;
     padding-bottom: 60px;
   }
-.images{
-    padding-left: 50px;
-    border-radius: 20%;
-}
+  .hov{
+    width:400px;
+    height: 350px;
+   
+    transform: rotate(20deg);
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: 100;
+    
+  }
+  
+  @keyframes example {
+    0%   { bottom:-20px; top:50px;}
+    25%  { bottom:50px; top:0px;}
+    50%  { bottom:-20; top:50px;}
+    75%  { bottom:50px; top:0px;}
+    100% { bottom:0px; top:50px;}
+  }
