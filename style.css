@@ -91,7 +91,7 @@ i:hover{
     flex: 1;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -115,6 +115,7 @@ h1{
     font-family: 'Signika', sans-serif;
     color: white;
     text-decoration: underline;
+    
 }
 /* ABOUT ME SECITON*/
 
@@ -130,7 +131,7 @@ h1{
 
 .about{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
 }
 @media  (max-width: 600px) {
@@ -152,7 +153,7 @@ h1{
     position: relative;
     animation-name: example;
     animation-duration: 8s;
-    animation-iteration-count: 100;
+    animation-iteration-count: 1000;
     
   }
   
