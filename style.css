@@ -164,3 +164,15 @@ h1{
     75%  { bottom:50px; top:0px;}
     100% { bottom:0px; top:50px;}
   }
+  #logo{
+
+color:rgb(143, 67, 238);
+    font-size: 1.8em;
+  }
+  .skill{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 400px;
+      gap: 50px;
+  }
