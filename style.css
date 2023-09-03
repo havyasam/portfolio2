@@ -166,13 +166,45 @@ h1{
   }
   #logo{
 
-color:rgb(143, 67, 238);
+    color:rgb(143, 67, 238);
     font-size: 1.8em;
+    display: flex;    
+    flex-direction: column;
+    padding: 30px;
   }
-  .skill{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      padding-left: 400px;
-      gap: 50px;
-  }
+ .main4{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+   gap: 100px;
+ }
+ .helo{
+     margin-top: 10px;
+    width: 4px;
+   height: 4px;
+   border-radius: 30px;
+   background: rgb(143, 67, 238);;
+   transition: width 1s;
+   border:2px solid rgb(75, 5, 160);
+  
+ }
+ 
+ .helo{
+   width: 300px;
+   
+ }
+.helo:hover{
+    width:200px;
+}
+
+ h4{
+     text-align: justify;
+ }
+ .percent{
+     display: none;
+ }
+ 
+ .tools{
+     display: flex;
+     justify-content: center;
+ }
