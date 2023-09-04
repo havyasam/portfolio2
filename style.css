@@ -218,13 +218,28 @@ h1{
      gap: 40px;
      padding-bottom: 50px;
  }
- .high{
-     align-items: right;
- }
- #pu{
-     justify-content: left;
- }
- .eng{
-     align-items: right;
- }
  
+ .circle{
+    background-color:rgb(143, 67, 238);
+    border-radius:50px;
+    width: 12px;
+    height:12px;
+    
+    
+  }
+  
+  .lines{
+   background-color:purple;
+    margin-left:4.8px;
+    width: 1.8px;
+    height:150px;
+    
+    
+    }
+    .jj{
+        display: flex;
+        justify-content: center;
+
+    }
+  
+   
