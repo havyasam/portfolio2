@@ -236,10 +236,11 @@ h1{
     
     
     }
-    .jj{
+    .ii{
         display: flex;
-        justify-content: center;
-
+    }
+    .kk{
+        display: flex;
     }
   
    
