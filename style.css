@@ -179,32 +179,7 @@ h1{
      display: flex;
      flex-direction: row;
      justify-content: center;
-   gap: 100px;
- }
- .helo{
-     margin-top: 10px;
-    width: 4px;
-   height: 4px;
-   border-radius: 30px;
-   background: rgb(143, 67, 238);;
-   transition: width 1s;
-   border:2px solid rgb(75, 5, 160);
-  
- }
- 
- .helo{
-   width: 300px;
-   
- }
-.helo:hover{
-    width:200px;
-}
-
- h4{
-     text-align: justify;
- }
- .percent{
-     display: none;
+     gap: 100px;
  }
  
  .tools{
@@ -219,28 +194,26 @@ h1{
      padding-bottom: 50px;
  }
  
- .circle{
-    background-color:rgb(143, 67, 238);
-    border-radius:50px;
-    width: 12px;
-    height:12px;
-    
-    
-  }
-  
-  .lines{
-   background-color:purple;
-    margin-left:4.8px;
-    width: 1.8px;
-    height:150px;
-    
-    
+
+    .progress-container {
+        width: 280px;
+        background-color: #f0f0f0;
+       border-style: solid;
+        border-color:rgb(75, 5, 160);
+      border-radius:10px;
+      
     }
-    .ii{
-        display: flex;
+
+    .progress-bar {
+        width: 60px;
+        height: 7px;
+        background-color: rgb(143, 67, 238);
+      border-radius:10px;
+      
+        transition: width 0.5s;
     }
-    .kk{
-        display: flex;
-    }
+
+    
+    
   
    
