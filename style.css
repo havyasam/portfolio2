@@ -234,7 +234,24 @@ h1{
         padding-bottom: 10px;
 
     }
-    
+    .notes:hover{
+        transform:scale(1.1);
+        transition: 2s;
+    }
+    .notes:hover {
+        opacity: 1;
+        transform:scale(1.05);
+        transition: 2s;
+       
+      
+    }
+    .contact-me{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .images{
+        border-radius: 57% 43% 74% 26% / 20% 30% 70% 80% ;
+    }
 
     
     
