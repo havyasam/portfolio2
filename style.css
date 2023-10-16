@@ -13,10 +13,17 @@
 /*navbar section*/
 
 nav{
-    padding-top: 30px;
-    padding-bottom: 100px;
 
+    padding-top: 20px;
+    padding-bottom: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter:blur(2px);
+    background-color:rgb(17, 5, 26);
 }
+
 .first{
     padding:28px 0px 28px 150px ;
     font-size: 1.2em;
@@ -55,10 +62,10 @@ body{
     
 }
 
-/*.main{
-    padding-left: 400px;
+.main{
+    padding-top: 200px;
 
-}*/
+}
 
 .fa-linkedin{
     color: rgb(143, 67, 238);
@@ -241,9 +248,7 @@ h1{
     .notes:hover {
         opacity: 1;
         transform:scale(1.05);
-        transition: 2s;
-       
-      
+        transition: 2s;  
     }
     .contact-me{
         padding-top: 40px;
