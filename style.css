@@ -3,6 +3,11 @@
     margin: 0%;
     font-family:  'Signika', sans-serif;
     color: white;
+
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /*.hov:hover{
@@ -14,9 +19,10 @@
 
 nav{
 
-    padding-top: 20px;
-    padding-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 0px;
     position: fixed;
+    z-index: 1;
     width: 100%;
     top: 0;
     left: 0;
@@ -58,6 +64,7 @@ nav{
 
 body{
     background-color: rgb(17, 5, 26);
+  
     
     
 }

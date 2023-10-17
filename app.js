@@ -1,8 +1,8 @@
 ScrollReveal({ 
     reset: true ,
-    distance:'100px',
+    distance:'180px',
     duration:2500,
-    delay:500                    
+    delay:200                    
 });
 ScrollReveal().reveal('.he img',{delay:700,origin:'right',interval:200});
 ScrollReveal().reveal('.main2 h1',{delay:700,origin:'left',interval:200});
