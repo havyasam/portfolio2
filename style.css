@@ -2,9 +2,7 @@
     padding: 0%;
     margin: 0%;
     font-family:  'Signika', sans-serif;
-    color: white;
-
-    
+    color: white;    
 }
 html{
     scroll-behavior: smooth;
@@ -64,8 +62,8 @@ nav{
 
 body{
     background-color: rgb(17, 5, 26);
-  
-    
+    width: 100%;
+    position: absolute;
     
 }
 
@@ -262,9 +260,21 @@ h1{
         padding-bottom: 50px;
     }
     .images{
-        border-radius: 57% 43% 74% 26% / 20% 30% 70% 80% ;
+        padding-left: 50px;
     }
-
+    .contact1,ul,li{
+        padding:10px;
+        font-size: 20px; 
+        
+    }
+    #logos{
+        color:rgb(143, 67, 238) ;
+    }
+    .contact-me1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
     
     
   
