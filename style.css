@@ -255,27 +255,93 @@ h1{
         transform:scale(1.05);
         transition: 2s;  
     }
-    .contact-me{
+    .contact{
         padding-top: 40px;
         padding-bottom: 50px;
+        
     }
     .images{
         padding-left: 50px;
     }
     .contact1,ul,li{
+        list-style: none;
         padding:10px;
         font-size: 20px; 
+       
         
     }
     #logos{
         color:rgb(143, 67, 238) ;
+        font-size: 30px;
+        margin-right: 30px;
+        padding-top: 10px;
+        border-top: 50px;
     }
     .contact-me1{
         display: flex;
         text-align: center;
         justify-content: center;
+        gap: 150px;
     }
-    
-    
+    input,textarea{
+        margin: 10px;
+        padding: 10px 80px 60px 20px;
+        background-color:rgb(27, 16, 36);
+        border-radius: 6px;
+        border-color: rgb(143, 67, 238) ;
+        font-size: 14px;
+    }
+    .nameemail{
+        display: flex;
+    }
+    #subject{
+        padding: 10px 330px 80px 20px;
+    }
+    .span1{
+        color: rgb(169, 169, 169);
+        margin-left: 185px;
+        font-size: 15px;
+    }
+    .span2{
+        color: rgb(169, 169, 169);
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .span3{
+        color: rgb(169, 169, 169);
+        margin-left: 75px;
+        font-size: 15px;
+    }
+    .span4{
+        color: rgb(169, 169, 169);
+        margin-left: 100px;
+        font-size: 15px;
+       ;
+    }
+    .phone{
+        padding-left: 30px;
+    }
+    .location{
+        padding-left: 10px;
+       
+    }
+    button{
+        margin: 10px;
+        padding: 20px 50px 20px 10px;
+        background-color:rgb(143, 67, 238);
+        border-radius: 6px;
+        border-color: rgb(143, 67, 238) ;
+        color:white;
+        margin-right: 300px;
+        font-size: 16px;
+    }
+    .plane{
+        padding-left: 10px;
+    }
+    footer{
+        padding: 100px;
+        margin-top: 30px;
+        background-color: rgb(29, 18, 42);
+    }
   
    
