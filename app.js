@@ -18,3 +18,4 @@ ScrollReveal().reveal('.note-project1',{delay:100,origin:'left',interval:200});
 ScrollReveal().reveal('.about',{delay:100,origin:'top',interval:200});
 ScrollReveal().reveal('.main3 img',{delay:100,origin:'left',interval:200});
 ScrollReveal().reveal('.main3 p',{delay:100,origin:'right',interval:200});
+

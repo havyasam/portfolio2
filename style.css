@@ -3,6 +3,7 @@
     margin: 0%;
     font-family:  'Signika', sans-serif;
     color: white;    
+    
 }
 html{
     scroll-behavior: smooth;
@@ -290,6 +291,7 @@ h1{
         border-radius: 6px;
         border-color: rgb(143, 67, 238) ;
         font-size: 14px;
+        border-width: 3.5px;
     }
     .nameemail{
         display: flex;
@@ -341,7 +343,7 @@ h1{
     footer{
         padding: 100px;
         margin-top: 30px;
-        background-color: rgb(29, 18, 42);
+        background-color: rgb(0, 0, 0);
     }
   
    
