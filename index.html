@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&family=Signika:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Linefont:wght@100&family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
@@ -15,19 +17,19 @@
    <nav class="navbar">
        <ul>  
            <li class="first">Havyas</li>
-           <li class="second">Home</li>
-           <li class="second">About</li>
-           <li class="second">Skills</li>
-           <li class="second">Qualifications</li>
+          <a href="#hm"> <li class="second">Home</li></a>
+          <a href="#abtme"><li class="second">About</li></a> 
+           <a href="#skl"><li class="second">Skills</li></a>
+           
            <li class="second">Projects</li>
            <li class="second">Contact Me</li>
        </ul>
    </nav>
-   <section class="main flex-item">
+   <section id="hm"class="main flex-item">
         <div class="main1">
-            <a href="https://www.linkedin.com/in/havyas-a-m-8117b4228/"><i class="fa-brands fa-linkedin"></i><br></a>
-            <a href="https://github.com/havyasam"><i class="fa-brands fa-github"></i><br></a>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.linkedin.com/in/havyas-a-m-8117b4228/"><i class="fa-brands fa-linkedin link"></i><br></a>
+            <a href="https://github.com/havyasam"><i class="fa-brands fa-github git"></i><br></a>
+            <i class="fa-brands fa-instagram insta"></i>
         </div>
         <div class="flex-item main2">
             <h1>Hi, I'm Havyas</h1>
@@ -38,14 +40,20 @@
             <img class="hov" src="HAVYAS (1).png" alt="" width="300px" height="300px">
         </div>
    </section>
-   <br><br><br><br>
-   <section>
+   
+
+   <div id="abtme">
+
+        </div>
+   <section >
        <h1 class="about">About Me</h1>
        <div class="main3">
             <img class="images"src="data:image/jpeg;base64,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" alt="" width="350px" height="310px">
            <p> Hello there,👋 I'm Havyas a 21-year-old CSE undergrad and a <br>Computer Science Enthusiast currently on an exhilarating journey<br> through the realm of Software Development, Web Development <br>and Cross Platform App Development. I'm really passionate about my<br> work as a Full Stack  Developer and i love to solve complex  problems <br>of the real world. I share my learnings through projects, articles and<br>  community engagements. ✍🏻</p>
-       </div>
+      
    </section>
+</div>
+<div id="skl"></div>
    <section>
     <div class="skills">
         <h1>Skills</h1>
@@ -141,11 +149,35 @@
         </div>
     </div>
     <footer>
-        
-        <img class="mix"src="output-onlinegiftools.gif" alt="" width="100px" height="65px">
-        
-
+        <!-- <img class="mix"src="output-onlinegiftools.gif" alt="" width="100px" height="65px"> -->
+        <div class="foot">
+        <div class="name">
+        <pre id="h">H </pre><pre id="a">A </pre><pre id="v">V </pre><pre id="y">Y </pre><pre id="aa">A </pre><pre id="s">S </pre>
+        </div>
+         <div class="arrow">
+           <a href="#hm"><i class="fa-solid fa-house "></i></a> 
+        </div>
+       
+        <div>
+            <p class="get"><span class="A">G</span><span class="B">E</span><span class="A">T    </span><span class="B">I</span><span class="A">N  </span><span class="B">T</span><span class="A">O</span><span class="B">U</span><span class="A">C</span><span class="B">H</span><p>
+        </div>
+       
+       
+      
+    </div>
+    <div class="foot2">
+    <div>
+    <p class="web">I'm a web developer <i class="fa-solid fa-code"></i>. Checkout my <br>work above <i class="fa-solid fa-laptop-code"></i> </p>
+</div>
+<div class="foot12">
+    <a href="https://www.linkedin.com/in/havyas-a-m-8117b4228/"><i class="fa-brands fa-linkedin"></i><br></a>
+    <a href="https://github.com/havyasam"><i class="fa-brands fa-github"></i><br></a>
+    <i class="fa-brands fa-instagram"></i>
+</div>
+</div>
+<p class="final">made with <i class="fa-solid fa-heart fa-beat"></i> by Havyas</p>
     </footer>
+    
    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {

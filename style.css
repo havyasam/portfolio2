@@ -73,7 +73,7 @@ body{
 
 }
 
-.fa-linkedin{
+.link{
     color: rgb(143, 67, 238);
     font-size: 1.8em;
    
@@ -81,13 +81,13 @@ body{
     
 }
 
-.fa-github{
+.git{
     color:rgb(143, 67, 238);
     font-size: 1.8em;
     padding-bottom: 2em;
     
 }
-.fa-instagram{
+.insta{
     color:rgb(143, 67, 238);
     font-size: 1.8em;
 }
@@ -106,16 +106,17 @@ i:hover{
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
     padding-bottom: 30px;
     flex-direction: row;
     flex-wrap: wrap;
 
 }
+
 .main2{
     color: white;
     font-family: 'Signika', sans-serif;
-    padding: 0 80px 0 80px;
+  
    
 }
 
@@ -145,7 +146,11 @@ h1{
     padding-bottom: 60px;
 }
 
+#abtme{
+    height:4.5rem;
+}
 .about{
+    margin-top: 1.5rem;
     text-align: center;
     padding-bottom: 100px;
     
@@ -156,6 +161,9 @@ h1{
     padding-left: 50px;
 
     }
+  }
+  #skl{
+      height: 6rem;
   }
   .skills{
     text-align: center;
@@ -237,13 +245,13 @@ h1{
     .note-project{
         display: flex;
         justify-content: center;
-        padding-right: 500px;
+        padding-right: 450px;
         padding-bottom: 10px;
     }
     .note-project1{
         display: flex;
         justify-content: center;
-        padding-left: 500px;
+        padding-left: 600px;
         padding-bottom: 10px;
 
     }
@@ -336,21 +344,139 @@ h1{
         color:white;
         margin-right: 300px;
         font-size: 16px;
+        margin-bottom: 50px;
     }
     .plane{
         padding-left: 10px;
     }
     footer{
         padding: 0px 10px 150px 100px;
-
-
+       
         background-color: rgb(0, 0, 0);
+       
+       
+        height: 109px;
     }
     .mix{
         
     display: -webkit-box;
     margin-left: auto;
+   
     }
+
+   
+    #h{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+        color: rgb(143, 67, 238) ;
+        padding-left: 250px;
+
+    }
+    #a{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+       
+    }
+    #v{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+        color: rgb(143, 67, 238) ;
+    }
+    #y{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+    }
+    #aa{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+        color: rgb(143, 67, 238) ;
+    }
+    #s{
+        font-size: 45px;
+        font-family:  'Nosifer', sans-serif;
+    }
+    .name{
+        display: flex;
+    }
+    .web{
+        padding-top: 30px;
+        padding-left: 250px;
+        color: rgb(169, 169, 169);
+    }
+    .foot{
+        display: flex;
+        gap: 150px;
+    }
+    .get{
+        font-size: 27px;
+    font-family: 'Signika', sans-serif;
+    padding-left: 40px;
+    padding-top: 25px;
+   
+        color: white ;
+
+    }
+    .A{
+        font-size: 25px;
+        font-family:  cursive;
+         color: white ;
+    
+    }
+    
+    .B{
+        font-size: 25px;
+        font-family:  cursive;
+    color:white
+    }
+    .foot2{
+        display: flex;
+        gap: 240px;
+    }
+    .foot12{
+        display: flex;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 225px;
+        gap: 30px;
+    
+    }
+    .fa-house{
+        padding-top: 20px;
+        font-size: 30px;
+    
+        color: rgb(143, 67, 238) ;
+    }
+    .fa-code{
+        color: rgb(143, 67, 238) ;
+    }
+    .fa-laptop-code{
+        color: rgb(143, 67, 238) ;
+    }
+    .fa-linkedin{
+        color: rgb(143, 67, 238) ;
+    }
+    .fa-github{
+        color: rgb(143, 67, 238) ;
+    }
+    .fa-instagram{
+        color: rgb(143, 67, 238) ;
+    }
+    .final{
+        font-size: 17px;
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 50px;
+       
+    }
+    .fa-heart{
+        color: red;
+    }
+
+    
+   
+    
+    
+
     
   
     
