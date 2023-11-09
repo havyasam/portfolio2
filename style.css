@@ -2,7 +2,8 @@
     padding: 0%;
     margin: 0%;
     font-family:  'Signika', sans-serif;
-    color: white;    
+    color: white;
+    text-decoration: none;    
     
 }
 html{
@@ -31,7 +32,7 @@ nav{
 
 .first{
     padding:28px 0px 28px 150px ;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-right: 18em;
 }
 .second{
@@ -52,12 +53,12 @@ nav{
 }
 .second:hover{
     color: rgb(143, 67, 238);
-    font-size:1.03em;
+    
     cursor: pointer;
 }
 .first:hover{
     color: rgb(143, 67, 238);
-    font-size:1.25em;
+   
     cursor: pointer;
 }
 
@@ -233,6 +234,12 @@ h1{
       
         transition: width 0.5s;
     }
+    .project{
+        padding-top: 20px;
+    }
+    .contact2{
+        padding-top: 30px;
+    }
 
     .notes{
         height: 220px;
@@ -241,6 +248,10 @@ h1{
         border-style: solid;
         border-width: 4px;
         border-color: rgb(143, 67, 238);
+    }
+    #contact-me{
+        
+        height: 60px;
     }
     .note-project{
         display: flex;
