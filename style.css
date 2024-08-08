@@ -6,6 +6,47 @@
     text-decoration: none;    
     
 }
+.light{
+    color: rgb(167, 162, 162);
+}
+.circle1{
+    height: 12px;
+    width: 12px;
+    margin-top: 14px;
+    border-radius: 50%;
+    margin-left: 761.5px;
+    background: rgb(143, 67, 238);
+}
+.line{
+    height: 90px;
+    width: 2px;
+    margin-top: 0px;
+    background: rgb(143, 67, 238);
+    /* margin-left: 771px; */
+    padding-bottom: 15px;
+}
+.educ1{
+    display: flex;
+    gap: 20px;
+    margin-left: 567px;
+}
+.educ2{
+    display: flex;
+    gap: 20px;
+    margin-left: 766px;
+}
+.educ3{
+    display: flex;
+    gap: 20px;
+    margin-left: 600.5px;
+}
+.circle2{
+    height: 12px;
+    width: 12px;
+    margin-left: 761.5px;    
+    border-radius: 50%;
+    background: rgb(143, 67, 238);
+}
 html{
     scroll-behavior: smooth;
 }
@@ -62,10 +103,11 @@ html{
     cursor: pointer;
 } */
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -100,6 +142,7 @@ nav li a {
 nav ul li a:hover {
     color: rgb(0, 162, 255);
     transform: scale(1.1);
+    
 }
 
 nav h2 {
@@ -150,7 +193,7 @@ nav h2 {
     display: block;
   }
    #name{
-       margin-left: 160px;
+       padding-left: 5px;
    }
 
 body{
@@ -333,29 +376,42 @@ h1{
     }
 
     .notes{
-        height: 220px;
-        width:350px;
-        border-radius: 10px;
+        height: 192px;
+        width:300px;
+        border-radius: 2px;
+        /* border-radius: 10px;
         border-style: solid;
         border-width: 4px;
-        border-color: rgb(143, 67, 238);
+        border-color: rgb(143, 67, 238); */
     }
     #contact-me{
         
         height: 60px;
     }
     .note-project{
-        display: flex;
-        justify-content: center;
-         margin-right: 450px;
+       
+        height: 220px;
+        width: 300px;
+        border: solid rgb(143, 67, 238) 3px;
+        border-radius: 5px;
+        margin-right: 450px;
+        /* background: green; */
         padding-bottom: 10px; 
     }
+    .noteapp{
+        text-align: center;
+        margin-top: 5px;
+        height: 30px;
+        border-bottom: solid rgb(143, 67, 238) 3px;
+    }
     .note-project1{
-        display: flex;
-        justify-content: center;
-        margin-left: 600px;
-        padding-bottom: 10px;
-
+        height: 200px;
+        width: 300px;
+        border: solid rgb(143, 67, 238) 3px;
+        border-radius: 5px;
+        margin-right: 450px;
+        /* background: green; */
+        padding-bottom: 10px; 
     }
     .notes:hover{
         transform:scale(1.1);
