@@ -140,7 +140,7 @@ nav li a {
 }
 
 nav ul li a:hover {
-    color: rgb(0, 162, 255);
+    color: rgb(143, 67, 238);
     transform: scale(1.1);
     
 }
@@ -199,7 +199,7 @@ nav h2 {
 body{
     background-color: rgb(17, 5, 26);
     width: 100%;
-    position: absolute;
+    
     
 }
 
@@ -385,8 +385,7 @@ h1{
         border-color: rgb(143, 67, 238); */
     }
     #contact-me{
-        
-        height: 60px;
+        /* height: 10px; */
     }
     .note-project{
        
@@ -397,6 +396,7 @@ h1{
         margin-right: 450px;
         /* background: green; */
         padding-bottom: 10px; 
+        position: fixed
     }
     .noteapp{
         text-align: center;
@@ -412,6 +412,15 @@ h1{
         margin-right: 450px;
         /* background: green; */
         padding-bottom: 10px; 
+    }
+    .project1{
+        width: 50%;
+        height: 100px;
+      
+        bottom: 140px;
+        background: blue;
+        position: fixed;
+        
     }
     .notes:hover{
         transform:scale(1.1);
@@ -630,50 +639,43 @@ h1{
         color: red;
     }
 
-    .flip-card {
-        background-color: black;
-        width: 300px;
-        height: 172px;
-        border: 1px solid #f1f1f1;
-        perspective: 1000px; /* Remove this if you don't want the 3D effect */
-      }
-      
-      /* This container is needed to position the front and back side */
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-      }
-      
-      /* Do an horizontal flip when you move the mouse over the flip box container */
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-      
-      /* Position the front and back side */
-      .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden; /* Safari */
-        backface-visibility: hidden;
-      }
-      
-      /* Style the front side (fallback if image is missing) */
-      .flip-card-front {
-        background-color: #bbb;
-        color: black;
-      }
-      
-      /* Style the back side */
-      .flip-card-back {
-        background-color: rgba(11, 3, 53, 0.315);
+
+    .project-section { 
+        margin-left: 500px;
+    }
+    .projec{
+        position:sticky;
+        margin-right: 500px;
+        top:60px;
+    }
+    
+    .project {
+        position: sticky;
+        align-items: center;
+        top: 160px;
+        margin-bottom: 30px;
+        width: 50%;
+        height: 40vh;
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: 2rem;
         color: white;
-        transform: rotateY(180deg);
-      }
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    #project1 { background-color: lightblue; }
+    #project2 { background-color: lightcoral; }
+    #project3 { background-color: lightgreen; }
+    #project4 { background-color: lightyellow; }
+    #project5 { background-color: lightpink; }
+    
+
+  
 
 
     
