@@ -652,38 +652,37 @@ h1{
     .projec{
         position:sticky;
         margin-right: 500px;
-        top:60px;
+        top:100px;
     }
     
     .project {
         position: sticky;
-        align-items: center;
         top: 160px;
         margin-bottom: 30px;
-        width: 50%;
-        height: 40vh;
-        
+        width: 450px;
+        height: 300px;
         box-sizing: border-box;
-        font-size: 2rem;
         color: white;
-        border-radius: 5px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
+        padding: 0;
     }
     
     #project1 { background-color: lightblue; }
     #project2 { background-color: lightcoral; }
-    #project3 { background-color: lightgreen; }
+    #project3 { background-color: rgb(5, 40, 5); }
     #project4 { background-color: lightyellow; }
     #project5 { background-color: lightpink; }
     
 .chatpng{
+    
     height: 253px;
 }
-  
+.chit{
+    position: relative;
+    top:0px;
+}
+h2{   
+    color: rgb(143, 67, 238) ;
+} 
 
 
     
