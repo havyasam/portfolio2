@@ -665,6 +665,80 @@ h1{
         color: white;
         padding: 0;
     }
+    .hoverproject::after {
+        content: '';
+        position: absolute;
+        width: 430px;
+        height: 233px;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        white-space: nowrap;
+        opacity: 0; 
+        transition: opacity 0.4s ease; 
+        display: block; 
+    }
+    .btnproject{
+        position: absolute;
+        top: 94%;
+        bottom: 30%;
+        left: -2.5%;
+        width: 452px;
+        height: 48px;
+        color: black;
+        background-color: rgb(150, 150, 151) ;
+        
+    }
+
+    .btnproject1{
+        position: absolute;
+        top: 80.5%;
+        bottom: 30%;
+        left: -2.5%;
+        width: 452px;
+        height: 48px;
+        color: black;
+        
+    }
+
+    .btnproject2{
+        position: absolute;
+        top: 80%;
+        bottom: 30%;
+        left: -2.5%;
+        width: 452px;
+        height: 48px;
+        color: black;
+        
+    }
+
+    .btnproject3{
+        position: absolute;
+        top: 80.3%;
+        bottom: 30%;
+        left: -2.5%;
+        width: 452px;
+        height: 48px;
+        color: black;
+        
+    }
+    .paraproj{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+  
+    
+    .hoverproject:hover::after {
+        content: 'This is the text that appears on hover!';
+        transition-delay: .4s; 
+        opacity: 0.8; 
+    }
+    
     
     #project1 { background-color: lightblue; }
     #project2 { background-color: lightcoral; }
