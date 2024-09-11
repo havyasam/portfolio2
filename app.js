@@ -1,14 +1,11 @@
+
 ScrollReveal({ 
     reset: true ,
     distance:'180px',
     duration:2000,
     delay:50                 
 });
-ScrollReveal().reveal('.he img',{delay:600,origin:'right',interval:200});
-ScrollReveal().reveal('.main2 h1',{delay:700,origin:'left',interval:200});
-ScrollReveal().reveal('.main2 p',{delay:700,origin:'right',interval:200});
-ScrollReveal().reveal('.main1',{delay:700,origin:'bottom',interval:200});
-ScrollReveal().reveal('.main2 h3',{delay:700,origin:'right',interval:200});
+
 ScrollReveal().reveal('.navbar',{delay:700,origin:'top',interval:200});
 ScrollReveal().reveal('.languages',{delay:100,origin:'left',interval:200});
 ScrollReveal().reveal('.frameworks',{delay:100,origin:'right',interval:200});
@@ -25,4 +22,17 @@ ScrollReveal().reveal('#v',{delay:1400,origin:'bottom',interval:200});
 ScrollReveal().reveal('#y',{delay:2000,origin:'bottom',interval:200});
 ScrollReveal().reveal('#aa',{delay:2600,origin:'bottom',interval:200});
 ScrollReveal().reveal('#s',{delay:3200,origin:'bottom',interval:200});
+
+if (window.innerWidth > 400) {
+    ScrollReveal().reveal('.he img, .main2 h1, .main2 p, .main1, .main2 h3 ', {
+        reset: true ,
+        distance:'180px',
+        duration:2000,
+        delay:600,
+        origin:'right',
+        interval:200
+
+    });
+  }
+  
 

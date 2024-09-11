@@ -255,12 +255,32 @@ i:hover{
    
 }
 
-@media (max-width:800px) {
+/* @media (max-width:768px) {
     .main2 {
         order: 1;
-      
+        transform: none !important;
     }
-}
+} */
+
+@media (max-width: 768px) {
+    
+    .m2{
+        order: 2;
+    }
+    .main {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+  
+  }
+@media (max-width: 768px) {
+    .he img, .main2 h1, .main2 p, .main1, .main2 h3 {
+      opacity: 1 !important; 
+      transform: none !important; 
+    }
+  }
 
 h1{
     font-size: 50px;
